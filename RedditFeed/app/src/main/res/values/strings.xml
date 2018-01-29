@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Reddit Feed</string>
+
+    <!-- Menu Tabs for Selection -->
+    <string name="menu_tab_0">New</string>
+    <string name="menu_tab_1">Hot</string>
+    <string name="menu_tab_2">Random</string>
+    <string name="menu_tab_3">Rising</string>
+    <string name="menu_tab_4">Top</string>
+    <string name="menu_tab_5">Options</string>
+
+</resources>
