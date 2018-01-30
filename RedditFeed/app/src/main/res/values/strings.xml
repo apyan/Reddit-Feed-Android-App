@@ -1,5 +1,11 @@
 <resources>
+
     <string name="app_name">Reddit Feed</string>
+    <string name="app_credit">Submitted by Alvin Yan</string>
+    <string name="splash_prompt">Tap to Proceed</string>
+
+    <!-- Process Messages -->
+    <string name="loading_000">Loading...\nPlease wait.</string>
 
     <!-- Menu Tabs for Selection -->
     <string name="menu_tab_0">New</string>
