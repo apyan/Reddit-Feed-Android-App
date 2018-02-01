@@ -2,6 +2,7 @@ package com.personaldev.redditfeed.redditfeed;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -105,9 +106,15 @@ public class FragmentRandomTopic extends Fragment implements View.OnClickListene
             case R.id.random_button:
 
                 // Head to the topic page screen
-                Intent eIntent = new Intent(context, TopicPageScreen.class);
+                /*Intent eIntent = new Intent(context, TopicPageScreen.class);
                 eIntent.putExtra("urlLink", jsonURL);
-                v.getContext().startActivity(eIntent);
+                v.getContext().startActivity(eIntent);*/
+
+                // Open URL via Internet (on Hold)
+                String url = "https://www.reddit.com/r/random";
+                Intent eIntent = new Intent(Intent.ACTION_VIEW);
+                eIntent.setData(Uri.parse(url));
+                startActivity(eIntent);
                 break;
             default:
                 break;

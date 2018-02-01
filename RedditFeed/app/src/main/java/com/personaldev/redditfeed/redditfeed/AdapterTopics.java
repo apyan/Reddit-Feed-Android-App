@@ -2,6 +2,7 @@ package com.personaldev.redditfeed.redditfeed;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -123,9 +124,15 @@ public class AdapterTopics extends BaseAdapter {
                 // TODO Auto-generated method stub
 
                 // Head to the topic page screen
-                Intent eIntent = new Intent(eContext, TopicPageScreen.class);
+                /*Intent eIntent = new Intent(eContext, TopicPageScreen.class);
                 eIntent.putExtra("urlLink",
                         "https://www.reddit.com" + foundedTopics.get(position).topicPermalink + ".json");
+                v.getContext().startActivity(eIntent);*/
+
+                // Open URL via Internet (on Hold)
+                String url = "https://www.reddit.com" + foundedTopics.get(position).topicPermalink;
+                Intent eIntent = new Intent(Intent.ACTION_VIEW);
+                eIntent.setData(Uri.parse(url));
                 v.getContext().startActivity(eIntent);
             }
         });
