@@ -124,7 +124,8 @@ public class AdapterTopics extends BaseAdapter {
 
                 // Head to the topic page screen
                 Intent eIntent = new Intent(eContext, TopicPageScreen.class);
-                eIntent.putExtra("permalink", foundedTopics.get(position).topicPermalink);
+                eIntent.putExtra("urlLink",
+                        "https://www.reddit.com" + foundedTopics.get(position).topicPermalink + ".json");
                 v.getContext().startActivity(eIntent);
             }
         });

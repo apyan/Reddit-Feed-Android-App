@@ -30,17 +30,17 @@ public class AdapterTabPager extends FragmentStatePagerAdapter {
                 FragmentHotTopic fragmentHotTopic = new FragmentHotTopic();
                 return fragmentHotTopic;
             case 2:
-                // Returns the fragment of Reddit's Random topics
-                FragmentRandomTopic fragmentRandomTopic = new FragmentRandomTopic();
-                return fragmentRandomTopic;
+                // Returns the fragment of Reddit's Top topics
+                FragmentTopTopic fragmentTopTopic = new FragmentTopTopic();
+                return fragmentTopTopic;
             case 3:
                 // Returns the fragment of Reddit's Rising topics
                 FragmentRisingTopic fragmentRisingTopic = new FragmentRisingTopic();
                 return fragmentRisingTopic;
             case 4:
-                // Returns the fragment of Reddit's Top topics
-                FragmentTopTopic fragmentTopTopic = new FragmentTopTopic();
-                return fragmentTopTopic;
+                // Returns the fragment of Reddit's Random topics
+                FragmentRandomTopic fragmentRandomTopic = new FragmentRandomTopic();
+                return fragmentRandomTopic;
             default:
                 return null;
         }

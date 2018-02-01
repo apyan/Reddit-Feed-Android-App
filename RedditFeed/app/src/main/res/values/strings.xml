@@ -12,10 +12,16 @@
     <!-- Menu Tabs for Selection -->
     <string name="menu_tab_0">New</string>
     <string name="menu_tab_1">Hot</string>
-    <string name="menu_tab_2">Random</string>
+    <string name="menu_tab_2">Top</string>
     <string name="menu_tab_3">Rising</string>
-    <string name="menu_tab_4">Top</string>
+    <string name="menu_tab_4">Random</string>
+
     <string name="menu_tab_5">Options</string>
+
+    <!-- Random Fragment Strings -->
+    <string name="random_000">Can\'t decide on a topic?</string>
+    <string name="random_001">Well, we got you covered!</string>
+    <string name="random_002">Give me something fun!</string>
 
     <!-- Topic ListView Labels -->
     <string name="topic_000">00</string>
