@@ -28,7 +28,7 @@ public class FragmentRisingTopic extends Fragment implements View.OnClickListene
         appConnect = new AppConnect(getActivity());
 
         // Set up UI elements
-        button_00 = (Button) v.findViewById(R.id.search_button);
+        button_00 = (Button) v.findViewById(R.id.connect_button);
         // Button onClick Inputs
         button_00.setOnClickListener(this);
 
@@ -39,7 +39,7 @@ public class FragmentRisingTopic extends Fragment implements View.OnClickListene
     public void onClick(View v) {
         switch (v.getId()) {
             // Search Button
-            case R.id.search_button:
+            case R.id.connect_button:
 
                 break;
             default:

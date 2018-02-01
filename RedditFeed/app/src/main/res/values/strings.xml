@@ -5,7 +5,9 @@
     <string name="splash_prompt">Tap to Proceed</string>
 
     <!-- Process Messages -->
-    <string name="loading_000">Loading...\nPlease wait.</string>
+    <string name="loading_000">Searching...\nPlease wait.</string>
+    <string name="connect_000">Connection not found.\nPlease try again.</string>
+    <string name="connect_001">Retry</string>
 
     <!-- Menu Tabs for Selection -->
     <string name="menu_tab_0">New</string>
@@ -14,5 +16,14 @@
     <string name="menu_tab_3">Rising</string>
     <string name="menu_tab_4">Top</string>
     <string name="menu_tab_5">Options</string>
+
+    <!-- Topic ListView Labels -->
+    <string name="topic_000">00</string>
+    <string name="topic_001">Topic Title</string>
+    <string name="topic_002">(domain)</string>
+    <string name="topic_003">by (author)</string>
+    <string name="topic_004">to (subreddit)</string>
+    <string name="topic_005">submitted on (date)</string>
+    <string name="topic_006">(num) comments</string>
 
 </resources>

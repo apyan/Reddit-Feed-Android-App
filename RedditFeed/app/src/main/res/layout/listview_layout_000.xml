@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:gravity="top|left"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/listview_layout_000"
+    tools:ignore="RtlHardcoded">
+
+    <TableRow
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/text_000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/topic_000"
+            android:textStyle="bold"
+            android:textColor="#878787"
+            android:textSize="25sp" />
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/text_001"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/topic_001"
+            android:textColor="#285396"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1">
+
+                <TextView
+                    android:id="@+id/text_002"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:text="@string/topic_003"
+                    android:textColor="#878787"
+                    android:textSize="14sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_column="0" />
+
+                <TextView
+                    android:id="@+id/text_003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:text="@string/topic_004"
+                    android:textColor="#878787"
+                    android:textSize="14sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_column="1" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_004"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:text="@string/topic_006"
+                    android:textColor="#3d3d3d"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_column="0" />
+
+                <TextView
+                    android:id="@+id/text_005"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:text="@string/topic_002"
+                    android:textColor="#3d3d3d"
+                    android:textSize="14sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_column="1" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/text_006"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text="@string/topic_005"
+            android:textColor="#878787"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
